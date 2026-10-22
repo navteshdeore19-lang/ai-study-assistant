@@ -1,0 +1,27 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local vector database
+chroma_db/
+
+# Local study PDFs
+documents/*.pdf
+
+# Backup files
+*_backup.py
+
+# Temporary test scripts
+chroma_test.py
+chroma_ollama_test.py
