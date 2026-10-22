@@ -44,9 +44,9 @@ Install Python and Ollama. The following Ollama models are used:
 Download the models using:
 
 ```powershell
+
 ollama pull qwen2.5:3b
 ollama pull nomic-embed-text
-```
 
 Make sure Ollama is running before launching the application.
 
